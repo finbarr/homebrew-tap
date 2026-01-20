@@ -8,11 +8,11 @@ class Yolobox < Formula
   depends_on "go" => :build
 
   def install
-    ldflags = "-s -w -X main.Version=\#{version}"
+    ldflags = "-s -w -X main.Version=#{version}"
     system "go", "build", *std_go_args(ldflags: ldflags), "./cmd/yolobox"
   end
 
   test do
-    assert_match version.to_s, shell_output("\#{bin}/yolobox version")
+    assert_match version.to_s, shell_output("#{bin}/yolobox version")
   end
 end
