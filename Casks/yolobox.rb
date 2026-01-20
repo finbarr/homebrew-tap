@@ -14,22 +14,22 @@ cask "yolobox" do
   on_macos do
     on_intel do
       url "https://github.com/finbarr/yolobox/releases/download/v#{version}/yolobox-darwin-amd64.tar.gz"
-      sha256 "8248f3495bb5230922a1547433e22e2ece92a994db2b00be79c11090f0ccea43"
+      sha256 "0d5a3cfd41c87e5f9fda07296b312f8dc0f75646bf8d81e811efb06514053cf1"
     end
     on_arm do
       url "https://github.com/finbarr/yolobox/releases/download/v#{version}/yolobox-darwin-arm64.tar.gz"
-      sha256 "0e0874adabd5731258cad1856518e780aeb819b9b4a356a9b5d311807d644a57"
+      sha256 "489983f4e07cff4aec9be8c5079aea56161e81c07b1bc4cdd5b765f13fd708be"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/finbarr/yolobox/releases/download/v#{version}/yolobox-linux-amd64.tar.gz"
-      sha256 "e755e901f4a4e4651d1ff952750f2a09bf5858ca1c37d7d8847c64434eebb897"
+      sha256 "22f3ac18564f7fad332dee797d38df4d46497be1b80d2f6c254e0c8c97948b2f"
     end
     on_arm do
       url "https://github.com/finbarr/yolobox/releases/download/v#{version}/yolobox-linux-arm64.tar.gz"
-      sha256 "6ad8eb9194be66e9051c43152e62a6f74990f01b51795c5f112c80d3528c0350"
+      sha256 "ff312ce119fc82a3e1271fe25b2bba6103af8ba558662e6b86fe472e66e8326f"
     end
   end
 
