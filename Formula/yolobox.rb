@@ -1,8 +1,8 @@
 class Yolobox < Formula
   desc "Run AI coding agents in a sandboxed container"
   homepage "https://github.com/finbarr/yolobox"
-  url "https://github.com/finbarr/yolobox/archive/refs/tags/v0.1.9.tar.gz"
-  sha256 "8be50ca6c52a5ec6a83bee136254e652ab15508d92f51f659407a4230ee0fc92"
+  url "https://github.com/finbarr/yolobox/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "4887644bb623ee22521477bc0b4c936ffa8140bb7c3c555d74ef029c8d2f5be8"
   license "MIT"
 
   depends_on "go" => :build
