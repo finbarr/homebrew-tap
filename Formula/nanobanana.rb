@@ -1,28 +1,28 @@
 class Nanobanana < Formula
   desc "Generate and edit images with Gemini from the command line"
   homepage "https://github.com/finbarr/nanobanana-cli"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/finbarr/nanobanana-cli/releases/download/v0.2.0/nanobanana-darwin-arm64"
-      sha256 "e1f1168c1da534dda8160eeef8615b986e149e66675f824a1eaff12f43b12035"
+      url "https://github.com/finbarr/nanobanana-cli/releases/download/v0.2.1/nanobanana-darwin-arm64"
+      sha256 "60b6ac101d22279fc99f183112b0cd048fccf729f275bac069945f8ae709f924"
     end
     on_intel do
-      url "https://github.com/finbarr/nanobanana-cli/releases/download/v0.2.0/nanobanana-darwin-amd64"
-      sha256 "4138a077a6bf5b0cd3594ab574b4a7ca8c4af2f68811b62e8df78519f7f137a6"
+      url "https://github.com/finbarr/nanobanana-cli/releases/download/v0.2.1/nanobanana-darwin-amd64"
+      sha256 "a144b01b4a3b9fbe56b2689cd0f131f023e15b781e650a55297d8a0b24434181"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/finbarr/nanobanana-cli/releases/download/v0.2.0/nanobanana-linux-arm64"
-      sha256 "9b3f21071708f5713971bed7ad3386b63acfc3718d91da99a10c5421de3dca88"
+      url "https://github.com/finbarr/nanobanana-cli/releases/download/v0.2.1/nanobanana-linux-arm64"
+      sha256 "408288f56ce6bd4ffd514740a4129c3a0bed487d49eb41bcddd903c54f4e2183"
     end
     on_intel do
-      url "https://github.com/finbarr/nanobanana-cli/releases/download/v0.2.0/nanobanana-linux-amd64"
-      sha256 "24b9f4cbe8bdb10848b031e67fd17452de47959e779e59823daca765c7eb5ca3"
+      url "https://github.com/finbarr/nanobanana-cli/releases/download/v0.2.1/nanobanana-linux-amd64"
+      sha256 "f8fb9d852de0758b01d333749a6cb6dbbc8f859f9e235f85ff8dd826e41d2053"
     end
   end
 
