@@ -1,13 +1,13 @@
 cask "nanobanana-cli" do
-  version "0.3.0"
+  version "0.4.0"
 
   on_arm do
-    sha256 "ee10754348cd5314fe8ffdf410d001f0bdaf74cc6e9a7c8b6b8207f89fc8ac9f"
-    url "https://github.com/finbarr/nanobanana-cli/releases/download/v0.3.0/nanobanana-darwin-arm64.tar.gz"
+    sha256 "308ee97894ebd42cc3adbd5f80b0e28ad73afc2e5609444f6bc7ca796748f3c8"
+    url "https://github.com/finbarr/nanobanana-cli/releases/download/v0.4.0/nanobanana-darwin-arm64.tar.gz"
   end
   on_intel do
-    sha256 "0b63f6e3c0db7f5430e077230ac017448aa6463250f93375ef1a6ddfcd32877d"
-    url "https://github.com/finbarr/nanobanana-cli/releases/download/v0.3.0/nanobanana-darwin-amd64.tar.gz"
+    sha256 "6ab9e215131ea512adc3748771791eccd3fdf3d92f3d596dc42a40fd6647689c"
+    url "https://github.com/finbarr/nanobanana-cli/releases/download/v0.4.0/nanobanana-darwin-amd64.tar.gz"
   end
 
   name "nanobanana-cli"
