@@ -1,28 +1,28 @@
 class Yolobox < Formula
   desc "Run AI coding agents in a sandboxed container"
   homepage "https://github.com/finbarr/yolobox"
-  version "0.12.1"
+  version "0.13.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/finbarr/yolobox/releases/download/v0.12.1/yolobox-darwin-arm64"
-      sha256 "c59f1643d7951030d694a287ef67ac9fd209dcebd2c60bddc40a26b28d5ebc7f"
+      url "https://github.com/finbarr/yolobox/releases/download/v0.13.0/yolobox-darwin-arm64"
+      sha256 "29bed62f293ff3fb8dbf5e2a14574dbb2a70772096c60db850814074c7508b0c"
     end
     on_intel do
-      url "https://github.com/finbarr/yolobox/releases/download/v0.12.1/yolobox-darwin-amd64"
-      sha256 "652112ebf0a0fa8ea9540ea1de57b1ee29bee9a71e3bbe7be45ff3c740b1cb9b"
+      url "https://github.com/finbarr/yolobox/releases/download/v0.13.0/yolobox-darwin-amd64"
+      sha256 "2ce4477caad2886107ccb1111e156c1d0ca576f6e40c53f4acccfa6e62090484"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/finbarr/yolobox/releases/download/v0.12.1/yolobox-linux-arm64"
-      sha256 "31b5a8c7734e0772e0b42c493537833fa8c348283431790e438c62448cb22f56"
+      url "https://github.com/finbarr/yolobox/releases/download/v0.13.0/yolobox-linux-arm64"
+      sha256 "d80d7aeec88944f21541cb266e90f7c464d2891db8afdc24f78bf7d9097accef"
     end
     on_intel do
-      url "https://github.com/finbarr/yolobox/releases/download/v0.12.1/yolobox-linux-amd64"
-      sha256 "28dd84a4dabf52856c9784a2724021676978a87feb1b5ff3acf86946b6106b43"
+      url "https://github.com/finbarr/yolobox/releases/download/v0.13.0/yolobox-linux-amd64"
+      sha256 "390283f711b6d425090b49f9b57fea85b735129056ebbe726a09a8ec18c07bd4"
     end
   end
 
