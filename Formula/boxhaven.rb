@@ -6,11 +6,11 @@
 # placeholders below from a tagged release and its SHA256SUMS file,
 # then commits the result to the tap as Formula/boxhaven.rb.
 #
-#   0.3.1              release version without the leading "v" (e.g. 0.3.0)
-#   99c27b105bc97485edb85762be4ee0d1d4f7f013a509a46aa8a15e12a7b075f1  sha256 of bh_v0.3.1_darwin_amd64.tar.gz
-#   877539fad5ff3f10d91fda1c3dd846e098a65d863dccfdd5e2570d599220f89b  sha256 of bh_v0.3.1_darwin_arm64.tar.gz
-#   123ae6e352ebefc9ab057682ad0e51a9a218fcdac4b8f926fbbd76f00a5c096f   sha256 of bh_v0.3.1_linux_amd64.tar.gz
-#   0677fd78ee31786fb0594b868e621df904ff03f5e5bd03785feff9f663dda63a   sha256 of bh_v0.3.1_linux_arm64.tar.gz
+#   0.4.0              release version without the leading "v" (e.g. 0.3.0)
+#   25b3c34c979676b0085e79c38fc1c8c74056f1130442dfb0f06b8c89e3031e71  sha256 of bh_v0.4.0_darwin_amd64.tar.gz
+#   af94f8fb17bf799ef4c0479789983c3846c2afebc1a19b2e32218f5421562d58  sha256 of bh_v0.4.0_darwin_arm64.tar.gz
+#   f967b3cb7257a42d51930dc0c61c5f6254fd15894172396252f5602cb20d1a3a   sha256 of bh_v0.4.0_linux_amd64.tar.gz
+#   f6ace34cbda3786a63ba7acd19b897ff72a7091b986eac592851bcc5a25d6c1f   sha256 of bh_v0.4.0_linux_arm64.tar.gz
 #
 # See packaging/homebrew/README.md for the fill-in workflow.
 class Boxhaven < Formula
@@ -20,21 +20,21 @@ class Boxhaven < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/finbarr/boxhaven/releases/download/v0.3.1/bh_v0.3.1_darwin_arm64.tar.gz"
-      sha256 "877539fad5ff3f10d91fda1c3dd846e098a65d863dccfdd5e2570d599220f89b"
+      url "https://github.com/finbarr/boxhaven/releases/download/v0.4.0/bh_v0.4.0_darwin_arm64.tar.gz"
+      sha256 "af94f8fb17bf799ef4c0479789983c3846c2afebc1a19b2e32218f5421562d58"
     else
-      url "https://github.com/finbarr/boxhaven/releases/download/v0.3.1/bh_v0.3.1_darwin_amd64.tar.gz"
-      sha256 "99c27b105bc97485edb85762be4ee0d1d4f7f013a509a46aa8a15e12a7b075f1"
+      url "https://github.com/finbarr/boxhaven/releases/download/v0.4.0/bh_v0.4.0_darwin_amd64.tar.gz"
+      sha256 "25b3c34c979676b0085e79c38fc1c8c74056f1130442dfb0f06b8c89e3031e71"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/finbarr/boxhaven/releases/download/v0.3.1/bh_v0.3.1_linux_arm64.tar.gz"
-      sha256 "0677fd78ee31786fb0594b868e621df904ff03f5e5bd03785feff9f663dda63a"
+      url "https://github.com/finbarr/boxhaven/releases/download/v0.4.0/bh_v0.4.0_linux_arm64.tar.gz"
+      sha256 "f6ace34cbda3786a63ba7acd19b897ff72a7091b986eac592851bcc5a25d6c1f"
     else
-      url "https://github.com/finbarr/boxhaven/releases/download/v0.3.1/bh_v0.3.1_linux_amd64.tar.gz"
-      sha256 "123ae6e352ebefc9ab057682ad0e51a9a218fcdac4b8f926fbbd76f00a5c096f"
+      url "https://github.com/finbarr/boxhaven/releases/download/v0.4.0/bh_v0.4.0_linux_amd64.tar.gz"
+      sha256 "f967b3cb7257a42d51930dc0c61c5f6254fd15894172396252f5602cb20d1a3a"
     end
   end
 
